@@ -1,5 +1,7 @@
 # Qiskit LEAN Verify Game
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RexRowan/Qiskit-LEAN-Verify-Game/blob/main/Colab/Qiskit_LEAN_Verify_Game.ipynb)
+
 Circuit puzzles built on the Qiskit SDK, with level content shared with the
 [CliffordGame](https://github.com/RexRowan/CliffordGame) lean4game
 submission. This package is the Qiskit-Ecosystem-eligible half of that
@@ -50,6 +52,9 @@ GameShell().show()
 
 ## Structure
 
+- `Colab/Qiskit_LEAN_Verify_Game.ipynb` — runnable demo notebook (installs
+  the package from this repo, plays through all 7 levels via `GameShell`).
+  Open directly in Colab via the badge above.
 - `grader.py` — decidable circuit-vs-target checker (Statevector-based, no
   notebook or Lean dependency).
 - `levels.py` — level content, ported from CliffordGame's v1 roadmap
