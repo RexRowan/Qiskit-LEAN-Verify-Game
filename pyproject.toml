@@ -11,7 +11,7 @@ license = { text = "Apache-2.0" }
 authors = [{ name = "Rex Rowan" }]
 requires-python = ">=3.10"
 dependencies = [
-    "qiskit>=2.0",
+    "qiskit>=2.0,<3",
     "numpy",
 ]
 classifiers = [
