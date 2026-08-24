@@ -79,4 +79,4 @@ logic those buttons call. **Cross-checked against CliffordGame's actual
 Lean proofs** via `scripts/crosscheck_against_lean.py` — all 7 levels
 pass (requires a local Lean toolchain to rerun; not part of the pytest
 suite since it needs Lean installed, which CI for this package doesn't
-assume). Ready for Qiskit Ecosystem submission.
+assume). 
