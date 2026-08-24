@@ -1,4 +1,4 @@
-# qiskit-lean-verify-game
+# Qiskit LEAN Verify Game
 
 Circuit puzzles built on the Qiskit SDK, with level content shared with the
 [CliffordGame](https://github.com/RexRowan/CliffordGame) lean4game
