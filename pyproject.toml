@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "qiskit-lean-verify-game"
+name = "Qiskit-LEAN-Verify-Game"
 version = "0.1.0"
 description = "A decidable-checker circuit puzzle package built on Qiskit, with level content shared with the CliffordGame lean4game submission."
 readme = "README.md"
