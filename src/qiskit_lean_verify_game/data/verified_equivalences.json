@@ -1,0 +1,14 @@
+{
+  "_status": "CROSS-CHECKED",
+  "_note": "These identities are cross-checked by scripts/crosscheck_against_lean.py, which runs CliffordGame's actual Lean proofs (via a vendored copy of Game/CliffordMath.lean in scripts/lean_reference/) and diffs the result against this package's independently-computed Qiskit Statevector for the same circuit. Verified passing as of this file's last update — rerun the script yourself to confirm rather than trusting this note indefinitely, since lean_reference/ is a manually-synced vendored copy and can drift from CliffordGame's actual source of truth.",
+  "identities": [
+    { "id": "h_squared_identity", "claim": "H^2 = I", "source_level": "level01_h_squared" },
+    { "id": "x_squared_identity", "claim": "X^2 = I", "source_level": "level02_x_squared" },
+    { "id": "hxh_equals_z", "claim": "H X H = Z", "source_level": "level03_hxh_is_z" },
+    { "id": "hzh_equals_x", "claim": "H Z H = X", "source_level": "level04_hzh_is_x" },
+    { "id": "s_squared_equals_z", "claim": "S^2 = Z", "source_level": "level05_s_squared" },
+    { "id": "interference", "claim": "X then H reaches (|0>-|1>)/sqrt(2)", "source_level": "level06_interference" },
+    { "id": "bell_state", "claim": "H on qubit 0 then CNOT reaches the Bell state", "source_level": "level07_bell_state" }
+  ]
+}
+
