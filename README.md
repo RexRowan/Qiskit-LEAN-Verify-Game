@@ -8,9 +8,8 @@ project — it interfaces with `qiskit.QuantumCircuit` and
 (pure Lean, no Python) structurally cannot do.
 
 **Read `docs/LIMITATIONS.md` before writing any external-facing copy about
-this package.** In particular: do not call this "formally verified" until
-`scripts/crosscheck_against_lean.py` is real and passing — right now it
-is an honest placeholder.
+this package** — in particular, what "cross-checked" precisely does and
+does not claim.
 
 ## Install
 
