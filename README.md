@@ -73,7 +73,7 @@ GameShell().show()
 
 ## Status
 
-v0.2.0. 27/27 tests passing (`pytest tests/`), including end-to-end tests
+27/27 tests passing (`pytest tests/`), including end-to-end tests
 that click real `ipywidgets` buttons rather than only testing the grading
 logic those buttons call. **Cross-checked against CliffordGame's actual
 Lean proofs** via `scripts/crosscheck_against_lean.py` — all 7 levels
