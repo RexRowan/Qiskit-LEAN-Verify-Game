@@ -14,8 +14,20 @@ levels pass. Run the script yourself before trusting this indefinitely —
 `scripts/lean_reference/` is a manually-synced copy of CliffordGame's
 source and can drift out of date.
 
-Accurate framing now: "circuit puzzles, cross-checked against Lean proofs
-in the companion CliffordGame project" — this is now true, not aspirational.
+**What "cross-checked" precisely claims, and doesn't:** the check is that
+this package's Qiskit `Statevector` result and CliffordGame's Lean-proven
+result agree, for each of these 7 specific circuits. That is not the same
+claim as "this package is formally verified," and that stronger phrase
+should not be used. In particular this cross-check does **not** establish:
+a general formal correspondence between Qiskit's `Statevector` semantics
+and Lean's semantics (only agreement on these 7 instances); that Qiskit's
+simulator itself is formally verified (it isn't, and this project makes
+no claim about Qiskit's internals); or anything about circuits/levels this
+package doesn't ship. The defensible sentence is "the target equivalences
+are proven in Lean, and this package's Qiskit implementation is
+independently cross-checked against those proofs" — not "verified by
+Lean" on its own, which reads as a much broader claim than what's actually
+been established.
 
 ## Scope limits carried over from CliffordGame
 
