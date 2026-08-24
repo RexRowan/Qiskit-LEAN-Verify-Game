@@ -24,7 +24,7 @@ widget = ["ipywidgets>=8.0"]
 test = ["pytest"]
 
 [project.urls]
-Homepage = "https://github.com/RexRowan/qiskit-lean-verify-game"
+Homepage = "https://github.com/RexRowan/Qiskit-LEAN-Verify-Game"
 "CliffordGame (companion Lean project)" = "https://github.com/RexRowan/CliffordGame"
 
 [tool.setuptools.packages.find]
