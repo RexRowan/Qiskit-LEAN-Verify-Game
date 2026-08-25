@@ -27,3 +27,7 @@ jobs:
 
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          attestations: false  # temporarily disabled to isolate an
+            # unrelated attestation-generation failure from the actual
+            # upload; re-enable once a plain publish succeeds
