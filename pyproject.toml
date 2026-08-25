@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "qiskit-lean-verify-game"
-version = "0.1.0"
+version = "0.1.1"
 description = "A decidable-checker circuit puzzle package built on Qiskit, with level content shared with the CliffordGame lean4game submission."
 readme = "README.md"
 license = { text = "Apache-2.0" }
