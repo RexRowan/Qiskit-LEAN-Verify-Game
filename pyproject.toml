@@ -25,7 +25,7 @@ test = ["pytest"]
 
 [project.urls]
 Homepage = "https://github.com/RexRowan/Qiskit-LEAN-Verify-Game"
-"CliffordGame (companion Lean project)" = "https://github.com/RexRowan/CliffordGame"
+"CliffordGame (Lean project)" = "https://github.com/RexRowan/CliffordGame"
 
 [tool.setuptools.packages.find]
 where = ["src"]
