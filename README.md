@@ -1,5 +1,6 @@
 # Qiskit LEAN Verify Game
 
+[![Qiskit Ecosystem](https://qisk.it/e-26484722)](https://qisk.it/e)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RexRowan/Qiskit-LEAN-Verify-Game/blob/main/Colab/Qiskit_LEAN_Verify_Game.ipynb)
 
 Circuit puzzles built on the Qiskit SDK, with level content shared with the
